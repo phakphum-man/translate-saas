@@ -1,6 +1,6 @@
 FROM libretranslate/libretranslate:latest
 
-ENV LT_LOAD_ONLY=en,de,th,fr,ko,ja,es,it
+ENV LT_LOAD_ONLY=en,es,fr,de,it,ko,ja,th
 
 EXPOSE 5000
 
