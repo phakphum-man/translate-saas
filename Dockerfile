@@ -3,8 +3,6 @@ FROM libretranslate/libretranslate:latest
 ENV LT_LOAD_ONLY=en,es,fr,de,it,ko,ja,th
 
 EXPOSE 5000
-
-CMD ["libretranslate"]
 #FROM python:3.10-slim
 
 #WORKDIR /app
